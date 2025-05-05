@@ -1,0 +1,30 @@
+/spring_jwt_rbac
+│
+├── src
+│   └── main
+│       ├── java
+│       │   └── com
+│       │       └── example
+│       │           ├── SpringJwtRbacApplication.java
+│       │           ├── config
+│       │           │   └── SecurityConfig.java
+│       │           ├── controller
+│       │           │   └── AuthController.java
+│       │           ├── model
+│       │           │   ├── Project.java
+│       │           │   └── User.java
+│       │           ├── repository
+│       │           │   ├── ProjectRepository.java
+│       │           │   └── UserRepository.java
+│       │           ├── security
+│       │           │   ├── JwtTokenProvider.java
+│       │           │   └── JwtAuthenticationFilter.java
+│       │           ├── service
+│       │           │   └── UserService.java
+│       │           └── dto
+│       │               ├── UserDto.java
+│       │               └── TokenDto.java
+│       └── resources
+│           ├── application.properties
+│           └── schema.sql
+└── pom.xml
